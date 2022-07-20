@@ -7,14 +7,44 @@ body{
     
 }
 
+/* --------------animation--------- */
+@keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+  }
+  
+  .aa{
+    color: #FFFFFF;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+  }
+  .animation-head{
+    background-color: black;
+    max-width: 1200px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    margin: 50px auto auto auto;
+  }
+
+
 /*----- web-head ---- */
 .web-head{
    background-color: black;
    max-width: 1200px;
-   margin: 50px auto;
+   margin: 0px auto;
    display: flex;
    color: #FFFFFF;
-   border-radius: 10px;
+   border-radius: 0 0 10px 10px;
    padding-top:30px ;
    
 }
@@ -45,6 +75,10 @@ body{
     border-radius: 5px;
     padding: 5px;
 }
+.web-head a:hover{
+    background-color: blue;
+}
+
 
 /*----------- link-another,page,cards ------------- */
     .main-section{
