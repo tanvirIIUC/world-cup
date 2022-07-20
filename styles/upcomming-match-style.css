@@ -33,6 +33,10 @@ body{
 }
 .head-img img{
     margin-top: 66px;
+    width: 100%;
+}
+.head-img{
+    width: 100%;
 }
 
 .web-head a{
@@ -144,7 +148,7 @@ body{
     }
      
     /* responsibe  for tab */
-    
+
     
 @media screen and (max-width:765px) {
     .web-head{
@@ -170,6 +174,19 @@ body{
         margin-top: 0;
     }
     
+}
+/* responsibe for tab */
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .content{
+        padding: 0 20px; 
+        grid-template-columns: repeat(2,1fr);  
+    }
 }
 
 

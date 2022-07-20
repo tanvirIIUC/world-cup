@@ -16,8 +16,7 @@ body{
    color: #FFFFFF;
    border-radius: 10px;
    padding-top:30px ;
-   /* padding-left: 60px; */
-   /* padding-right:50px ; */
+   
 }
 .web-head h1{
     font-weight: 700;
@@ -33,6 +32,10 @@ body{
 }
 .head-img img{
     margin-top: 66px;
+    width: 100%;
+}
+.head-img{
+    width: 100%;
 }
 
 .web-head a{
@@ -52,9 +55,7 @@ body{
        max-width: 1200px;
        margin: 50px auto;
     }
-    .sidenav{
-       
-    }
+   
     .fix{
          background-color: #FFFFFF;
          background: #161616;
@@ -148,6 +149,13 @@ body{
         flex-direction: column;
         text-align: center;
         padding: 0 20px; 
+    }
+    .head-img{
+        width: auto;
+    }
+    .web-head h1{
+        
+        font-size: 50px;
     }
     .main-section{
         display: flex;
