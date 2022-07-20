@@ -107,6 +107,24 @@ body{
         font-size: 16px;
         color: rgba(22, 22, 22, 0.7);
     }
+
+  
+       /* ------------read more -------- */
+       .view-all{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+       }
+       .view-all button{
+        background-color: #DD0000;
+        color: #FFFFFF;
+       }
+       .view-all{
+        display: none;
+       }
+   
     /*---------------- footer ------------*/
 
     footer{
@@ -189,6 +207,9 @@ body{
     .content{
         padding: 0 20px; 
         grid-template-columns: repeat(2,1fr);  
+    }
+    .view-all{
+        display: block;
     }
 }
 
