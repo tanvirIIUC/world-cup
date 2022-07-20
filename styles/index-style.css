@@ -264,6 +264,9 @@ body{
     .view-all{
         display: block;
     }
+    .hide{
+        display: none;
+    }
 }
 
 
