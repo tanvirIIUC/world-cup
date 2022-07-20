@@ -142,11 +142,32 @@ body{
         color: #FFFFFF;
         font-size: 20px;
     }
+     
+    /* responsibe  for tab */
+    
+    
 @media screen and (max-width:765px) {
     .web-head{
         flex-direction: column;
         text-align: center;
         
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .content{
+        padding: 0 20px; 
+        grid-template-columns: repeat(1,1fr);  
+    }
+    .abouts{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 0;
+    }
+    .logos{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 0;
     }
     
 }
