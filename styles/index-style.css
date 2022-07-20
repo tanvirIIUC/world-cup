@@ -43,7 +43,7 @@ body{
     padding: 5px;
 }
 
-/* link-another,page,cards */
+/*----------- link-another,page,cards ------------- */
     .main-section{
        display: grid;
        grid-template-columns: 200px auto;
@@ -59,23 +59,19 @@ body{
          background-color: #FFFFFF;
          background: #161616;
          border-radius: 10px;
-         /* text-align: center; */
+         
          padding: 5px;
     }
     .fix a{
         text-decoration: none;
         color: #161616;
-        /* background-color: #FFFFFF;
-        border-radius:5px ; */
+        
         
     }
-    /* .current-page{
-        background-color: red;
-        
-    } */
+   
     .fix p{
         background-color: #FFFFFF;
-        /* width: 252px; */
+        
         height: 40px;
         text-align: center;
         border-radius:5px ;
@@ -104,13 +100,13 @@ body{
         
     }
     .blog-info{
-        padding: 5px;
+        padding: 20px;
     }
     .blog-about{
         font-size: 16px;
         color: rgba(22, 22, 22, 0.7);
     }
-    /* footer */
+    /*---------------- footer ------------*/
 
     footer{
         background: #161616;
@@ -145,13 +141,37 @@ body{
         color: #FFFFFF;
         font-size: 20px;
     }
-@media screen and (max-width:765px) {
+
+    /* responsibe for mobile */
+@media screen and (max-width:767px) {
     .web-head{
         flex-direction: column;
         text-align: center;
+        padding: 0 20px; 
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .content{
+        padding: 0 20px; 
+        grid-template-columns: repeat(1,1fr);  
+    }
+   
+    footer hr{
+        
+        margin: 0 auto;
         
     }
-    
+    .abouts{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 0;
+    }
+    .logos{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 0;
+    }
 }
 
 
