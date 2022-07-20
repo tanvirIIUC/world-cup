@@ -123,6 +123,8 @@ body{
        .view-all button{
         background-color: #DD0000;
         color: #FFFFFF;
+        padding: 8px 20px;
+        border-radius: 5px;
        }
        .view-all{
         display: none;

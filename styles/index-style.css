@@ -119,6 +119,8 @@ body{
        }
        .view-all button{
         background-color: #DD0000;
+        padding: 8px 20px;
+        border-radius: 5px;
         color: #FFFFFF;
        }
        .view-all{
