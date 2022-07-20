@@ -111,6 +111,22 @@ body{
     .flag-info small{
         color: #4D4D4D;
     }
+
+    /* ------------read more -------- */
+    .view-all{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+       }
+       .view-all button{
+        background-color: #DD0000;
+        color: #FFFFFF;
+       }
+       .view-all{
+        display: none;
+       }
     /* footer */
 
     footer{
@@ -161,6 +177,13 @@ body{
         flex-direction: column;
         padding: 0 20px;
     }
+    .sidenav{
+        display: flex;
+        justify-content: center;
+    }
+    .fix{
+        background-color: #FFFFFF;
+    }
     .content{
         padding: 0 20px; 
         grid-template-columns: repeat(1,1fr);  
@@ -183,9 +206,19 @@ body{
         flex-direction: column;
         padding: 0 20px;
     }
+     .sidenav{
+        display: flex;
+        justify-content: center;
+    }
+    .fix{
+        background-color: #FFFFFF;
+    }
     .content{
         padding: 0 20px; 
         grid-template-columns: repeat(2,1fr);  
+    }
+    .view-all{
+        display: block;
     }
 }
 

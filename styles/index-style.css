@@ -60,7 +60,7 @@ body{
          background-color: #FFFFFF;
          background: #161616;
          border-radius: 10px;
-         
+         width: 170px;
          padding: 5px;
     }
     .fix a{
@@ -180,6 +180,13 @@ body{
         flex-direction: column;
         padding: 0 20px;
     }
+    .sidenav{
+        display: flex;
+        justify-content: center;
+    }
+    .fix{
+        background-color: #FFFFFF;
+    }
     .content{
         padding: 0 20px; 
         grid-template-columns: repeat(1,1fr);  
@@ -203,6 +210,13 @@ body{
         display: flex;
         flex-direction: column;
         padding: 0 20px;
+    }
+    .sidenav{
+        display: flex;
+        justify-content: center;
+    }
+    .fix{
+        background-color: #FFFFFF;
     }
     .content{
         padding: 0 20px; 
