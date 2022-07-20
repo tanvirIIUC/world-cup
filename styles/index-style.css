@@ -219,6 +219,10 @@ body{
     }
     .fix{
         background-color: #FFFFFF;
+        display: contents;
+    }
+    .fix p{
+        padding: 0 54px;
     }
     .content{
         padding: 0 20px; 
