@@ -220,6 +220,9 @@ body{
     .fix{
         background-color: #FFFFFF;
     }
+    .fix p{
+        border: 1px solid rgb(168, 164, 164);
+    }
     .content{
         padding: 0 20px; 
         grid-template-columns: repeat(1,1fr);  
